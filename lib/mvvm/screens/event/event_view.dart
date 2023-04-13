@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:hr_events/mvvm/data/providers/providers.dart';
-import 'package:hr_events/mvvm/screens/event/event_widget.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
+import 'package:hr/mvvm/screens/event/event_widget.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class EventView extends ConsumerStatefulWidget {
   const EventView({super.key});

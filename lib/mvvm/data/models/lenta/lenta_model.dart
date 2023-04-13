@@ -1,4 +1,4 @@
-import 'package:hr_events/mvvm/data/models/lenta/lenta_event_model.dart';
+import 'package:hr/mvvm/data/models/lenta/lenta_event_model.dart';
 
 //NOTE: список событий на главной
 class LentaModel {

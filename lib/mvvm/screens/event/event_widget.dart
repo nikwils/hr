@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
-import 'package:hr_events/mvvm/data/providers/providers.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class EventWidget extends ConsumerStatefulWidget {
   const EventWidget({super.key});
@@ -171,7 +171,7 @@ class _ListTileCreateState extends ConsumerState<_ListTileCreate> {
       return DeviceService().isAndroid
           ? SwitchListTile(
               secondary: const Icon(Icons.notifications),
-              title: Text('event_view.list_title.follow_events'.tr()),
+              title: Text('event_view.list_title.follow'.tr()),
               value: selectedEvent.inFavorite,
               onChanged: (bool value) {
                 notifier.switcher(
@@ -184,7 +184,7 @@ class _ListTileCreateState extends ConsumerState<_ListTileCreate> {
                 CupertinoIcons.bell_fill,
                 color: ThemeManager.iconDefaultColor,
               ),
-              title: Text('event_view.list_title.follow_events'.tr()),
+              title: Text('event_view.list_title.follow'.tr()),
               trailing: CupertinoSwitch(
                 value: selectedEvent.inFavorite,
                 onChanged: (value) {

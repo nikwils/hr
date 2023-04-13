@@ -1,12 +1,12 @@
 import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hr/mvvm/data/models/favorite_events/favorite_event_model.dart';
+import 'package:hr/mvvm/data/models/favorite_events/favorite_lenta_model.dart';
 
-import 'package:hr_events/mvvm/data/models/favorite_events/favorite_event_model.dart';
-import 'package:hr_events/mvvm/data/models/favorite_events/favorite_lenta_model.dart';
-import 'package:hr_events/services/api/api_controller_service.dart';
-import 'package:hr_events/services/api/api_service.dart';
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/services/api/api_controller_service.dart';
+import 'package:hr/services/api/api_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
 
 class SubEventProvider
     extends StateNotifier<AsyncValue<List<FavoriteEventModel>>> {

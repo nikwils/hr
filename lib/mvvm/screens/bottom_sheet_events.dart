@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/providers/providers.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
 
-import 'package:hr_events/mvvm/screens/events/events_view.dart';
+import 'package:hr/mvvm/screens/events/events_view.dart';
 
 class BottomSheetEvents {
   showForAndroid(BuildContext context) {
@@ -15,7 +15,7 @@ class BottomSheetEvents {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            _GenerateListTile("global.bottom_sheet.news_and_events".tr(),
+            _GenerateListTile("global.bottom_sheet.news_and".tr(),
                 style: const TextStyle(fontWeight: FontWeight.bold)),
             _GenerateListTile("global.bottom_sheet.news".tr(), type: 140),
             _GenerateListTile("global.bottom_sheet.events".tr(), type: 10),
@@ -37,7 +37,7 @@ class BottomSheetEvents {
       builder: (context) => CupertinoActionSheet(
         actions: [
           _GenerateCupertinoActionSheetAction(
-              "global.bottom_sheet.news_and_events".tr(),
+              "global.bottom_sheet.news_and".tr(),
               isDefaultAction: true,
               style: TextStyle(color: Theme.of(context).colorScheme.primary)),
           _GenerateCupertinoActionSheetAction("global.bottom_sheet.news".tr(),

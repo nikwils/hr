@@ -2,21 +2,21 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/models/lenta/lenta_event_model.dart';
-import 'package:hr_events/mvvm/data/providers/providers.dart';
+import 'package:hr/mvvm/data/models/lenta/lenta_event_model.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
 
-import 'package:hr_events/mvvm/screens/event/event_view.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/screens/event/event_view.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class EventsWidget extends ConsumerStatefulWidget {
   const EventsWidget({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _EventsWidgetState();
+  ConsumerState<ConsumerStatefulWidget> createState() => WidgetState();
 }
 
-class _EventsWidgetState extends ConsumerState<EventsWidget> {
+class WidgetState extends ConsumerState<EventsWidget> {
   @override
   Widget build(BuildContext context) {
     final events = ref.watch(eventsProvider);

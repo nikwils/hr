@@ -1,11 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
-import 'package:hr_events/mvvm/data/models/favorite_events/favorite_event_model.dart';
-import 'package:hr_events/mvvm/data/models/lenta/lenta_event_model.dart';
-import 'package:hr_events/mvvm/screens/events/events_provider.dart';
-import 'package:hr_events/mvvm/screens/event/event_provider.dart';
-import 'package:hr_events/mvvm/screens/sub_events/sub_event_provider.dart';
-
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/models/favorite_events/favorite_event_model.dart';
+import 'package:hr/mvvm/data/models/lenta/lenta_event_model.dart';
+import 'package:hr/mvvm/screens/events/events_provider.dart';
+import 'package:hr/mvvm/screens/event/event_provider.dart';
+import 'package:hr/mvvm/screens/sub_events/sub_event_provider.dart';
 //Providers
 //Provider
 //StateProvider

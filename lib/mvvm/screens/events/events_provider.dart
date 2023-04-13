@@ -3,15 +3,15 @@ import 'dart:convert';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
-import 'package:hr_events/mvvm/data/models/detail/detail_model.dart';
-import 'package:hr_events/mvvm/data/models/lenta/lenta_event_model.dart';
-import 'package:hr_events/mvvm/data/models/lenta/lenta_model.dart';
-import 'package:hr_events/services/api/api_controller_service.dart';
-import 'package:hr_events/services/api/api_service.dart';
-import 'package:hr_events/services/event_type/event_type_controller_service.dart';
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/models/detail/detail_model.dart';
+import 'package:hr/mvvm/data/models/lenta/lenta_event_model.dart';
+import 'package:hr/mvvm/data/models/lenta/lenta_model.dart';
+import 'package:hr/services/api/api_controller_service.dart';
+import 'package:hr/services/api/api_service.dart';
+import 'package:hr/services/event_type/event_type_controller_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class EventsProvider extends StateNotifier<AsyncValue<List<LentaEventModel>>> {
   EventsProvider() : super(const AsyncValue.data([])) {

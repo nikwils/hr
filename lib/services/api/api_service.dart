@@ -1,9 +1,9 @@
-import 'package:hr_events/services/device_service.dart';
+import 'package:hr/services/device_service.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
-import 'package:hr_events/app_settings.dart';
-import 'package:hr_events/services/api/api_controller_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/app_settings.dart';
+import 'package:hr/services/api/api_controller_service.dart';
 
 class ApiService {
   static const subController = '/api/';

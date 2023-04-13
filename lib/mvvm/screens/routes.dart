@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:hr_events/mvvm/screens/event/event_view.dart';
-import 'package:hr_events/mvvm/screens/events/events_view.dart';
-import 'package:hr_events/mvvm/screens/sub_events/sub_events_view.dart';
+import 'package:hr/mvvm/screens/event/event_view.dart';
+import 'package:hr/mvvm/screens/events/events_view.dart';
+import 'package:hr/mvvm/screens/sub_events/sub_events_view.dart';
 
 class Routes {
   static Map<String, Widget Function(BuildContext)> routesMap = {

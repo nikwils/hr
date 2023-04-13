@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/models/favorite_events/favorite_event_model.dart';
+import 'package:hr/mvvm/data/models/favorite_events/favorite_event_model.dart';
 
-import 'package:hr_events/mvvm/data/providers/providers.dart';
-import 'package:hr_events/mvvm/screens/event/event_view.dart';
-import 'package:hr_events/services/device_service.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
+import 'package:hr/mvvm/screens/event/event_view.dart';
+import 'package:hr/services/device_service.dart';
 
 class SubEventsWidget extends ConsumerWidget {
   const SubEventsWidget({super.key});

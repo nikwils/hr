@@ -1,4 +1,4 @@
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
 
 class DetailModel {
   final ResModel res;

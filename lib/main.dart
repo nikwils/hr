@@ -8,13 +8,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:hr_events/app_settings.dart';
-import 'package:hr_events/mvvm/screens/events/events_view.dart';
-import 'package:hr_events/mvvm/screens/routes.dart';
-import 'package:hr_events/services/context_service.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/notifications/notifications_firebase_service.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/app_settings.dart';
+import 'package:hr/mvvm/screens/events/events_view.dart';
+import 'package:hr/mvvm/screens/routes.dart';
+import 'package:hr/services/context_service.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/notifications/notifications_firebase_service.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class MyHttpOverrides extends HttpOverrides {
   @override

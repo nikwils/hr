@@ -5,15 +5,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
-import 'package:hr_events/mvvm/data/models/detail/detail_model.dart';
-import 'package:hr_events/mvvm/data/providers/providers.dart';
-import 'package:hr_events/services/api/api_controller_service.dart';
-import 'package:hr_events/services/api/api_service.dart';
-import 'package:hr_events/services/event_type/event_type_controller_service.dart';
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
-import 'package:hr_events/services/imgs/imgs_controller_service.dart';
-import 'package:hr_events/services/notifications/local_notifications.dart';
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/models/detail/detail_model.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
+import 'package:hr/services/api/api_controller_service.dart';
+import 'package:hr/services/api/api_service.dart';
+import 'package:hr/services/event_type/event_type_controller_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/services/imgs/imgs_controller_service.dart';
+import 'package:hr/services/notifications/local_notifications.dart';
 
 class EventProvider extends StateNotifier<AsyncValue<DetailEventModel>> {
   EventProvider(eventModelId)

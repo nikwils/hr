@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 
-import 'package:hr_events/mvvm/screens/events/events_view.dart';
-import 'package:hr_events/mvvm/screens/sub_events/sub_events_view.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/screens/events/events_view.dart';
+import 'package:hr/mvvm/screens/sub_events/sub_events_view.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class DrawerEvents extends StatelessWidget {
   const DrawerEvents({super.key});

@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
-import 'package:hr_events/mvvm/data/models/detail/detail_event_model.dart';
+import 'package:hr/mvvm/data/models/detail/detail_event_model.dart';
 
 FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();

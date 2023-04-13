@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
 
-import 'package:hr_events/services/exception_handlers/dialog_exception.dart';
+import 'package:hr/services/exception_handlers/dialog_exception.dart';
 
 class ExceptionHandlers {
   getExceptionString([error]) {

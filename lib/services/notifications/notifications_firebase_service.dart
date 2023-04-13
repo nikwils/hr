@@ -3,13 +3,13 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import 'package:hr_events/mvvm/screens/event/event_view.dart';
-import 'package:hr_events/services/api/api_controller_service.dart';
-import 'package:hr_events/services/api/api_service.dart';
-import 'package:hr_events/services/context_service.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/exception_handlers/exception_handlers.dart';
-import 'package:hr_events/services/notifications/local_notifications.dart';
+import 'package:hr/mvvm/screens/event/event_view.dart';
+import 'package:hr/services/api/api_controller_service.dart';
+import 'package:hr/services/api/api_service.dart';
+import 'package:hr/services/context_service.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/exception_handlers/exception_handlers.dart';
+import 'package:hr/services/notifications/local_notifications.dart';
 
 class FirebaseMessagingService {
   static final _singleton = FirebaseMessagingService._internal();

@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hr_events/mvvm/data/providers/providers.dart';
-import 'package:hr_events/mvvm/screens/bottom_sheet_events.dart';
-import 'package:hr_events/mvvm/screens/drawer_events.dart';
-import 'package:hr_events/mvvm/screens/events/events_widget.dart';
-import 'package:hr_events/services/device_service.dart';
-import 'package:hr_events/services/theme/theme_manager.dart';
+import 'package:hr/mvvm/data/providers/providers.dart';
+import 'package:hr/mvvm/screens/bottom_sheet_events.dart';
+import 'package:hr/mvvm/screens/drawer_events.dart';
+import 'package:hr/mvvm/screens/events/events_widget.dart';
+import 'package:hr/services/device_service.dart';
+import 'package:hr/services/theme/theme_manager.dart';
 
 class EventsView extends ConsumerStatefulWidget {
   const EventsView({super.key});
@@ -14,10 +14,10 @@ class EventsView extends ConsumerStatefulWidget {
   static const routeName = '/events';
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _EventsViewState();
+  ConsumerState<ConsumerStatefulWidget> createState() => ViewState();
 }
 
-class _EventsViewState extends ConsumerState<EventsView> {
+class ViewState extends ConsumerState<EventsView> {
   @override
   Widget build(BuildContext context) {
     final titleName = ref.watch(eventsProvider.notifier).getTitleName;
