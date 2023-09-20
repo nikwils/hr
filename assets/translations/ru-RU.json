@@ -1,0 +1,72 @@
+{
+    "global": {
+        "localization": "ru",
+        "ok": "ОК",
+        "cancel": "Отмена",
+        "drawer": {
+            "titles": {
+                "event_list": "Лента событий",
+                "my_favorite": "Мои подписки"
+            }
+        },
+        "bottom_sheet": {
+            "news_and_events": "Новости и события",
+            "news": "Новости",
+            "events": "События"
+        },
+        "local_notifications": {
+            "subscribe": {
+                "title": "Вы подписались на событие: {}",
+                "body": "Мероприятие пройдет по адресу: {}"
+            },
+            "cancel_subscribe": {
+                "title": "Вы отписались от события: {}",
+                "body": "До скорых встреч на наших мероприятиях"
+            },
+            "subscribe_error": {
+                "title": "Не удалось подписаться/отписаться на событие {}",
+                "body": "Попробуйте позже"
+            }
+        },
+        "errors": {
+            "error": "Ошибка",
+            "unknown_error": "Произошла неизвестная ошибка",
+            "socket_exception": "Нет интернет соединения",
+            "http_exception": "Произошла ошибка с соединением",
+            "format_exception": "Некорректный формат данных",
+            "timeout_exception": "Время соединения закончилось",
+            "bad_request_exception": "Плохое соединение",
+            "refresh_page": "Ошибка с соединением, обновите страницу"
+        }
+    },
+    "events_view": {
+        "title": {
+            "news_and_events": "Новости и события",
+            "news": "Новости",
+            "events": "Cобытия"
+        },
+        "input_placeholder": "Поиск...",
+        "default_data": {
+            "announce": "Смотрите подробности на странице события"
+        }
+    },
+    "event_view": {
+        "list_title": {
+            "follow_events": "Следить за событиями",
+            "contacts_for_feedback": "Контакты для обратной связи"
+        },
+        "modal_bottom_sheet": {
+            "title_email": "Email",
+            "title_phone": "Номер",
+            "title_url": "Ссылка",
+            "copied_to_clipboard": "Скопировано в буфер обмена",
+            "title_default_value": "Контакты не указаны"
+        }
+    },
+    "favorite_events_view": {
+        "title": {
+            "event_subscriptions": "Подписки на события"
+        },
+        "favorite_events_empty": "Список подписок пуст"
+    }
+}
